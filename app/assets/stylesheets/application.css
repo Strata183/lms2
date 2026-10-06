@@ -7,4 +7,10 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
- */
+*/
+
+
+.form-page {
+  max-width: 30rem;
+  margin: 0 auto;
+}
