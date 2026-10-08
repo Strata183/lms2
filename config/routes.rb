@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :assignment_submissions
   resources :assignments
+=======
+>>>>>>> ea6a41d (add devise to student model)
   devise_for :students
 
   resources :select_courses

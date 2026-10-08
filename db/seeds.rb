@@ -57,6 +57,7 @@ Course.create!(
   :department => Department.find_by(name: "English")
 )
 
+<<<<<<< HEAD
 # Assigments
 Course.all.each do |course|
   3.times do |n|
@@ -75,6 +76,15 @@ end
     :email => "student#{n}@lms.local",
     :password => "Pass1234"
   )
+=======
+4.times do |n|
+  Student.create!(
+  :first_name => "Test",
+  :last_name => "Student #{n}",
+  :email => "student#{n}",
+  :password => "Pass1234"
+)
+>>>>>>> ea6a41d (add devise to student model)
 end
 
 Student.all.each do |s|

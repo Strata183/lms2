@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[8.1].define(version: 2026_10_13_001549) do
   create_table "assignment_submissions", force: :cascade do |t|
     t.integer "assignment_id", null: false
@@ -32,6 +33,9 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_13_001549) do
     t.index ["course_id"], name: "index_assignments_on_course_id"
   end
 
+=======
+ActiveRecord::Schema[8.1].define(version: 2026_10_08_003119) do
+>>>>>>> ea6a41d (add devise to student model)
   create_table "courses", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.integer "department_id", null: false
