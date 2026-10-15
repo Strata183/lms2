@@ -4,6 +4,7 @@
 
 <ul>
   <% current_student.courses.each do |course| %>
+<<<<<<< HEAD
     <li><%= course.name %></li>
   <% end %>
 </ul>
@@ -13,5 +14,8 @@
 <ul>
   <% current_student.assignments.each do |assignment| %>
     <li><%= assignment.title %></li>
+=======
+    <li> <%= course.name %></li>
+>>>>>>> ce4d09f (Save local progress before syncing)
   <% end %>
 </ul>
